@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+
+.login-card{
+    border: 2px solid black;
+    padding: 35px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button{
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background-color: lightblue;
+}
+
+
+
+/* .login-form {
+  display: flex;
+  justify-content: center;
+
+  gap: 150px;
+}
+*/
+button:hover{
+  background-color: blue;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+} 
+
